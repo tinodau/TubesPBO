@@ -4,6 +4,11 @@ public class Kelas {
     private Matakuliah matakuliah;
     private Dosen dosen;
     
+    public Kelas (Dosen dosen, Matakuliah matakuliah) {
+        this.dosen = dosen;
+        this.matakuliah = matakuliah;
+    }
+    
     public void setMatakuliah (Matakuliah m) {
         matakuliah = m;
     }
@@ -18,12 +23,5 @@ public class Kelas {
     
     public Dosen getDosen () {
         return dosen;
-    }
-    
-    public void display () {
-        System.out.println("Mata Kuliah");
-        System.out.println(getMatakuliah());
-        System.out.println("Dosen");
-        System.out.println(getDosen());
     }
 }

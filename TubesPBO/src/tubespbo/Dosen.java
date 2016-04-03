@@ -13,24 +13,13 @@ import java.util.List;
  * @author Yogie fajar
  */
 public class Dosen extends Orang {
-    private String namaDosen;
-    private String idDosen;
-    private List<Kelas> daftarKelas = new ArrayList<>();
 
-    public String getNamaDosen() {
-        return namaDosen;
+    public Dosen (String nama, String id) {
+        super(nama,id);
     }
 
-    public void setNamaDosen(String namaDosen) {
-        this.namaDosen = namaDosen;
+    @Override
+    public String display () {
+        return ("Nama Dosen : "+getNama()+"\n"+"NIP : "+super.getID());
     }
-
-    public String getIdDosen() {
-        return idDosen;
-    }
-
-    public void setIdDosen(String idDosen) {
-        this.idDosen = idDosen;
-    }
-     
 }

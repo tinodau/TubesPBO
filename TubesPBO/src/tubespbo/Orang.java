@@ -9,28 +9,30 @@ package tubespbo;
  *
  * @author Yogie fajar
  */
-public class Orang {
+public abstract class Orang {
     private String nama;
     private String id;
 
-    public String getNama() {
-        return nama;
+    public Orang (String nama, String id) {
+        this.nama = nama;
+        this.id = id;
     }
 
     public void setNama(String nama) {
         this.nama = nama;
     }
 
-    public String getId() {
-        return id;
+    public String getNama() {
+        return nama;
     }
-
-    public void setId(String id) {
+    
+    public void setID(String id) {
         this.id = id;
     }
     
-    public void display () {
-        System.out.println("Nama : ");
-        System.out.println(getNama());
+    public String getID() {
+        return id;
     }
+
+    public abstract String display ();
 }
