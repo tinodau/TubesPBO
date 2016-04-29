@@ -4,20 +4,20 @@ Aplikasi ini digunakan untuk Registrasi Matakuliah yang dapat diakses melalui du
 
 Terdapat empat menu utama pada admin yaitu :
 
-1. Tambah Kelas Baru untuk menambahkan kelas baru ke dalam database
+1. Tambah Kelas Baru untuk menambahkan kelas baru ke dalam file
 
-2. Tambah Matakuliah Baru untuk menambahkan matakuliah baru ke dalam database
+2. Tambah Matakuliah Baru untuk menambahkan matakuliah baru ke dalam file
 
 3. Tambah Matakuliah ke Kelas untuk menambahkan matakuliah ke dalam kelas tertentu
 
-4. Tambah Dosen ke Kelas untuk menambahkan dosen ke dalam database
+4. Tambah Dosen ke Kelas untuk menambahkan dosen ke dalam file
 
 
 Sedangkan terdapat dua menu yang dapat dipilih oleh mahasiswa.
 
-1. Tambah Kelas untuk menambahkan kelas ke dalam database
+1. Tambah Kelas untuk menambahkan kelas ke dalam file
 
-2. Hapus Kelas untuk menghapus kelas tertentu dari database
+2. Hapus Kelas untuk menghapus kelas tertentu dari file
 
 
 Berikut adalah deskripsi singkat aplikasi registrasi matakuliah yang dilakukan oleh admin dan mahasiswa yaitu :
